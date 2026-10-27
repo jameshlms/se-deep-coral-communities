@@ -2,4 +2,10 @@
 name = "se-deep-coral-communities"
 version = "0.1.0"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pydantic>=2",
+    "requests>=2",
+]
+
+[project.scripts]
+coral = "se_deep_coral_communities.cli:main"
