@@ -1,0 +1,9 @@
+requests
+erddapy
+fastparquet
+pyarrow
+geopandas
+pandas
+numpy
+pydantic
+ipykernel
