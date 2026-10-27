@@ -35,10 +35,10 @@ That is the environment configured, now create a `data` directory with `raw` and
 
 (Windows)
 ```powershell
-md data/raw data/processed
+md data/raw data/interim data/processed
 ```
 
 (MacOS & Linux)
 ```bash
-mkdir -p data/{raw,processed}
+mkdir -p data/{raw,interim,processed}
 ```
