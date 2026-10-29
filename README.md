@@ -4,9 +4,16 @@
 
 Create a virtual environment.
 
+(Winwows & Linux)
 ```bash
 python -m venv .venv
 ```
+
+(MacOS)
+```bash
+python3 -m venv .venv
+```
+
 You can rename `.venv` to whatever environment name you prefer.
 
 Activate the environment if it is not already.
