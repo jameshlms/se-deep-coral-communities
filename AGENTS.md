@@ -14,3 +14,6 @@ When training a model, ensure these metrics are captured:
 - Training Duration
 - Number of Features
 
+## Data Loading
+
+When adding addition data to the primary coral reef observations dataset, implement the `ContextSource` interface from `src/se_deep_coral_communities/data_loading/context_source.py`. This ensures consistency of contextual data loading across sources and provides reusability.
