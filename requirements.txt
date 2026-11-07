@@ -8,3 +8,4 @@ numpy
 pydantic
 ipykernel
 pandas-stubs
+-e .
