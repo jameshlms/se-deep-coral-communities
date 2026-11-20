@@ -8,3 +8,6 @@ numpy
 pydantic
 ipykernel
 pandas-stubs
+-e .
+matplotlib
+scikit-learn
