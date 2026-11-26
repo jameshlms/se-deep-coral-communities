@@ -5,6 +5,7 @@ from .bio_oracle import (
     BioOracleTemperatureSource,
 )
 from .context_source import ContextSource
+from .imlgs import IMLGSSubstrateSource
 
 __all__ = [
     "BioOracleOxygenSource",
@@ -12,4 +13,5 @@ __all__ = [
     "BioOracleSalinitySource",
     "BioOracleTemperatureSource",
     "ContextSource",
+    "IMLGSSubstrateSource",
 ]
