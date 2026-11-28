@@ -118,3 +118,31 @@ class BioOraclePHSource(BioOracleSource):
 
     _DATASET_ID = "ph_baseline_2000_2018_depthmean"
     _VARIABLE = "ph_mean"
+
+
+class BioOracleNitrateSource(BioOracleSource):
+    """Mean dissolved nitrate concentration (mol m⁻³), depth mean, baseline 2000–2018."""
+
+    _DATASET_ID = "no3_baseline_2000_2018_depthmean"
+    _VARIABLE = "no3_mean"
+
+
+class BioOraclePhosphateSource(BioOracleSource):
+    """Mean dissolved phosphate concentration (mol m⁻³), depth mean, baseline 2000–2018."""
+
+    _DATASET_ID = "po4_baseline_2000_2018_depthmean"
+    _VARIABLE = "po4_mean"
+
+
+class BioOracleChlorophyllSource(BioOracleSource):
+    """Mean chlorophyll-a concentration (mg m⁻³), depth mean, baseline 2000–2018."""
+
+    _DATASET_ID = "chl_baseline_2000_2018_depthmean"
+    _VARIABLE = "chl_mean"
+
+
+class BioOracleCurrentSpeedSource(BioOracleSource):
+    """Mean sea-water speed (m s⁻¹), depth mean, baseline 2000–2019."""
+
+    _DATASET_ID = "sws_baseline_2000_2019_depthmean"
+    _VARIABLE = "sws_mean"
