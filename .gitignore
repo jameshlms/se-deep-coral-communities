@@ -1,5 +1,6 @@
-# data
+# data & figures
 data/
+figures/
 
 # python
 __pycache__/
